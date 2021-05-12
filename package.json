@@ -44,5 +44,5 @@
     "lint": "eslint . && echo '✔  Your .js files look good.'",
     "release": "standard-version"
   },
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
