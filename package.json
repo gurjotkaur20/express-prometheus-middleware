@@ -2,7 +2,6 @@
   "author": "Zaachery Zhu",
   "bundleDependencies": false,
   "dependencies": {
-    "prometheus-gc-stats": "^0.6.2",
     "response-time": "^2.3.2",
     "url-value-parser": "^2.0.0"
   },
@@ -44,5 +43,5 @@
     "lint": "eslint . && echo '✔  Your .js files look good.'",
     "release": "standard-version"
   },
-  "version": "1.0.6"
+  "version": "1.0.7"
 }
