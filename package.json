@@ -31,9 +31,6 @@
   ],
   "main": "src/index.js",
   "name": "express-prometheus-mid",
-  "optionalDependencies": {
-    "prometheus-gc-stats": "^0.6.2"
-  },
   "peerDependencies": {
     "express": "4.x",
     "prom-client": ">= 10.x <= 13.x"
