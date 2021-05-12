@@ -1,0 +1,42 @@
+{
+  "author": "Zachery ZHu",
+  "bundleDependencies": false,
+  "dependencies": {
+    "response-time": "^2.3.2",
+    "url-value-parser": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "RED/USE metrics for express applications",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@ls-age/commitlint-circle": "^1.0.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "express": "4.x",
+    "husky": "^4.2.5",
+    "prom-client": ">= 10.x <= 13.x",
+    "standard-version": "^9.2.0"
+  },
+  "files": [
+    "src/"
+  ],
+  "keywords": [
+    "express",
+    "prometheus",
+    "metrics"
+  ],
+  "main": "src/index.js",
+  "name": "@zachery2008/express-prometheus-middleware",
+  "peerDependencies": {
+    "express": "4.x",
+    "prom-client": ">= 10.x <= 13.x"
+  },
+  "private": false,
+  "scripts": {
+    "lint": "eslint . && echo '✔  Your .js files look good.'",
+    "release": "standard-version"
+  },
+  "version": "1.0.0"
+}
