@@ -1,7 +1,8 @@
 {
-  "author": "Zachery ZHu",
+  "author": "Zaachery Zhu",
   "bundleDependencies": false,
   "dependencies": {
+    "prometheus-gc-stats": "^0.6.2",
     "response-time": "^2.3.2",
     "url-value-parser": "^2.0.0"
   },
@@ -22,21 +23,29 @@
   "files": [
     "src/"
   ],
+  "homepage": "https://github.com/Zachery2008/-zachery2008-epxress-prometheus-middleware#readme",
   "keywords": [
     "express",
     "prometheus",
     "metrics"
   ],
   "main": "src/index.js",
-  "name": "@zachery2008/express-prometheus-middleware",
+  "name": "express-prometheus-mid",
+  "optionalDependencies": {
+    "prometheus-gc-stats": "^0.6.2"
+  },
   "peerDependencies": {
     "express": "4.x",
     "prom-client": ">= 10.x <= 13.x"
   },
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zachery2008/-zachery2008-epxress-prometheus-middleware.git"
+  },
   "scripts": {
     "lint": "eslint . && echo '✔  Your .js files look good.'",
     "release": "standard-version"
   },
-  "version": "1.0.0"
+  "version": "1.0.5"
 }
