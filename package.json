@@ -1,5 +1,5 @@
 {
-  "author": "Zaachery Zhu",
+  "author": "Zachery Zhu",
   "bundleDependencies": false,
   "dependencies": {
     "response-time": "^2.3.2",
@@ -28,8 +28,9 @@
     "prometheus",
     "metrics"
   ],
+  "license": "ISC",
   "main": "src/index.js",
-  "name": "express-prometheus-mid",
+  "name": "@zachery2006/express-prometheus-middleware",
   "peerDependencies": {
     "express": "4.x",
     "prom-client": ">= 10.x <= 13.x"
@@ -43,5 +44,5 @@
     "lint": "eslint . && echo '✔  Your .js files look good.'",
     "release": "standard-version"
   },
-  "version": "1.0.7"
+  "version": "1.0.2"
 }
