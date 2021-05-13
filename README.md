@@ -9,7 +9,7 @@ The metrics exposed allows to calculate common RED (Request, Error rate, Duratio
 ## Install
 
 ``` bash
-npm i --save @zacehry2006/express-prometheus-middleware
+npm i --save @zachery2006/express-prometheus-middleware
 ```
 
 ## Usage
