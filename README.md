@@ -1,7 +1,5 @@
 # Express Prometheus Middleware
 
-[![npm](https://img.shields.io/npm/v/@zachery2006/express-prometheus-middleware.svg)](https://www.npmjs.com/package/@zachery2008/express-prometheus-middleware)
-
 This is a middleware for express servers, that expose metrics for prometheus.
 
 The metrics exposed allows to calculate common RED (Request, Error rate, Duration of requests), and USE (Utilisation, Error rate, and Saturation), metrics
@@ -9,7 +7,7 @@ The metrics exposed allows to calculate common RED (Request, Error rate, Duratio
 ## Install
 
 ``` bash
-npm i --save @zachery2006/express-prometheus-middleware
+npm i --save @mindgrep/express-prometheus-middleware
 ```
 
 ## Usage
