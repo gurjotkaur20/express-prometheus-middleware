@@ -1,5 +1,5 @@
 {
-  "author": "Zachery Zhu",
+  "author": "Gurjot Kaur",
   "bundleDependencies": false,
   "dependencies": {
     "response-time": "^2.3.2",
@@ -8,21 +8,14 @@
   "deprecated": false,
   "description": "RED/USE metrics for express applications",
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@ls-age/commitlint-circle": "^1.0.0",
-    "eslint": "^6.6.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.13.0",
     "express": "4.x",
     "husky": "^4.2.5",
-    "prom-client": ">= 10.x <= 13.x",
-    "standard-version": "^9.2.0"
+    "prom-client": ">= 10.x <= 13.x"
   },
   "files": [
     "src/"
   ],
-  "homepage": "https://github.com/Zachery2008/-zachery2008-epxress-prometheus-middleware#readme",
+  "homepage": "https://github.com/gurjotkaur20/express-prometheus-middleware#readme",
   "keywords": [
     "express",
     "prometheus",
@@ -30,7 +23,7 @@
   ],
   "license": "ISC",
   "main": "src/index.js",
-  "name": "@zachery2006/express-prometheus-middleware",
+  "name": "@mindgrep/express-prometheus-middleware",
   "peerDependencies": {
     "express": "4.x",
     "prom-client": ">= 10.x <= 13.x"
@@ -38,11 +31,10 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zachery2008/-zachery2008-epxress-prometheus-middleware.git"
+    "url": "git+https://github.com/gurjotkaur20/express-prometheus-middleware.git"
   },
   "scripts": {
-    "lint": "eslint . && echo '✔  Your .js files look good.'",
-    "release": "standard-version"
+    "lint": "eslint . && echo '✔  Your .js files look good.'"
   },
-  "version": "1.0.4"
+  "version": "0.0.1"
 }
