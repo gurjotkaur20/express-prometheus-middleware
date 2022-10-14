@@ -36,5 +36,5 @@
   "scripts": {
     "lint": "eslint . && echo '✔  Your .js files look good.'"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
